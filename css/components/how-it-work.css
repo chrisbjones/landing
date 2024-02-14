@@ -1,0 +1,53 @@
+#first_column{
+  text-align: center;
+  height: 200px;
+  justify-content:center;
+  flex-direction: column;
+  line-height: 0cm;
+  display: flex;
+  font-family: 'Plus Jakarta Sans';
+  font-weight: lighter;
+}
+
+#first_column h2{
+  font-size: 29px;
+}
+
+.box-row{
+  height: 400px;
+  text-align: center;
+  flex-direction: row;
+  line-height: 0cm;
+  display: flex;
+  font-family: 'Plus Jakarta Sans';
+  font-weight: lighter;
+  justify-content:center;
+
+}
+
+#column-self{
+  width:200px;
+  height:200px;
+  display: flex;
+  border-style: solid;
+  border-right-color: rgba(0, 0, 0, 0.108);
+  border-bottom-color: white;
+  border-top-color: white;
+  border-left-color: rgba(0, 0, 0, 0.051);
+
+  flex-direction: column;
+  justify-content: space-around;
+  /* margin: 20px; */
+  padding: 50px;
+  margin: 0;
+}
+
+#icon-image{
+  height:60px ;
+  width: 60px;
+  text-align: center;
+  margin: 0 auto;
+}
+#c-text{
+  line-height: normal;
+}
